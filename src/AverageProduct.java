@@ -10,7 +10,8 @@ public class AverageProduct {
         System.out.print("Input 3nd num ");
         int a = scanner.nextInt();
         System.out.println(a * b * c);
-        float average = (a + b + c)/3f;
+        float sum = a + b + c;
+        float average = (sum)/3;
         System.out.println(average);
     }
 }

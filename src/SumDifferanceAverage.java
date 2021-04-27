@@ -11,7 +11,7 @@ public class SumDifferanceAverage {
         int third = scanner.nextInt();
         System.out.println(first + second + third);
         System.out.println(first - second - third);
-        float average = (first + second + third)/3f;
+        float average = (first + second + third)/3F;
         System.out.println(average);
     }
 }

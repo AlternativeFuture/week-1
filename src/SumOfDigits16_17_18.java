@@ -5,12 +5,7 @@ public class SumOfDigits16_17_18 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input 3-digits number - ");
         int number = scanner.nextInt();
-        int sum = 0;
-        sum += number / 100;
-        number = number % 100;
-        sum += number / 10;
-        number = number % 10;
-        sum += number;
+        int sum = number % 10 + number / 10 % 10 + number / 100;
         System.out.println(sum);
     }
 }

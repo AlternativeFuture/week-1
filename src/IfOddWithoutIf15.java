@@ -5,8 +5,7 @@ public class IfOddWithoutIf15 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input checking number - ");
         int number = scanner.nextInt();
-        boolean res;
-        res = (number % 2 == 0);
+        boolean res = (number % 2 == 0);
         System.out.println(res);
 
     }
