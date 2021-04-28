@@ -1,3 +1,5 @@
+package Day_2;
+
 import java.util.Random;
 
 public class Random800_1500 {
