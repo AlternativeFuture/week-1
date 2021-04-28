@@ -10,11 +10,10 @@ public class WideningPrimitiveConversion {
         int convInt = convShort;
         long convLong = convInt;
         float convFloat = convLong;
-        double convDouble = convFloat;
         System.out.println("byte to short " + byteInput + " " + convShort);
         System.out.println("short to int " + convShort + " " + convInt);
         System.out.println("int to long " + convInt + " " + convLong);
         System.out.println("long to float " + convLong + " " + convFloat);
-        System.out.println("float to double " + convFloat + " " + convDouble);
+        System.out.println("float to double " + convFloat + " " + (double) convFloat);
     }
 }
