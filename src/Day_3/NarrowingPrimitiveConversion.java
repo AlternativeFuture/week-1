@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NarrowingPrimitiveConversion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double convDouble = scanner.nextByte();
+        double convDouble = scanner.nextDouble();
         float convFloat = (float)convDouble;
         long convLong = (long)convFloat;
         int convInt = (int)convLong;
